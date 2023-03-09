@@ -9,7 +9,8 @@ def print_hi():
     # print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
     # print("Alkali metals:")
     # print()
-    # print("{0:<15}{1:<10}{2:^25}{3:>15}".format("Element", "Symbol", "Atomic number", "Atomic weight"))
+    # print("{0:<15}{1:<10}{2:^25}{3:>1:wq
+    # 5}".format("Element", "Symbol", "Atomic number", "Atomic weight"))
     # print("{0:<15}{1:<10}{2:^25}{3:>15}".format("Lithium", "Li", 3, 6.94))
     # print("{0:<15}{1:<10}{2:^25}{3:>15}".format("Sodium", "Na", 11, 22.990))
     # print("{0:<15}{1:<10}{2:^25}{3:>15}".format("Potassium", "K", 19, 39.098))
