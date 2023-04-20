@@ -1,0 +1,38 @@
+<!DOCTYPE studentDatable [
+        <!ELEMENT studentDatable (row)*>
+        <!ELEMENT row (studentDetail|subject|creditPoint|mark|grade)*>
+        <!ELEMENT studentDetail (#PCDATA)>
+        <!ELEMENT subject (#PCDATA)>
+        <!ELEMENT creditPoint (#PCDATA)>
+        <!ELEMENT mark (#PCDATA)>
+        <!ELEMENT grade (#PCDATA)>
+        ]>
+<studentDatable>
+    <row>
+        <studentDetail>SMITH, John - student id 1231234</studentDetail>
+    </row>
+    <row>
+        <subject>MATH101</subject>
+        <creditPoint>4</creditPoint>
+        <mark>85</mark>
+        <grade>A</grade>
+    </row>
+    <row>
+        <subject>ECON111</subject>
+        <creditPoint>5</creditPoint>
+        <mark>70</mark>
+        <grade>B</grade>
+    </row>
+    <row>
+        <subject>CS100</subject>
+        <creditPoint>5</creditPoint>
+        <mark>80</mark>
+        <grade>A</grade>
+    </row>
+    <row>
+        <subject>LAW121</subject>
+        <creditPoint>6</creditPoint>
+        <mark>75</mark>
+        <grade>B</grade>
+    </row>
+</studentDatable>
